@@ -1,0 +1,27 @@
+{
+  "name": "PixelTail Dark",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {},
+  "color_schemes": {
+    "PixelTail Dark": {
+      "primary": "d4d4d4",
+      "secondary": "232323",
+      "tertiary": "de9b9b",
+      "quaternary": "8f3f3f",
+      "header_background": "333333",
+      "header_primary": "dddddd",
+      "highlight": "210b0b",
+      "danger": "c88080",
+      "success": "70a083",
+      "love": "fa6c8d"
+    }
+  },
+  "modifiers": {},
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}

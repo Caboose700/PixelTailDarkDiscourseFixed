@@ -1,0 +1,24 @@
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
+
+<style type="text/css">
+/* Thanks Discourse. */
+p>code, li>code, pre>code {
+    background: #464646;
+}
+</style>
+
+<script type='text/x-handlebars' data-template-name='components/category-title-link'>
+	<a href={{category.url}}>
+	    {{#if category.uploaded_logo.url}}
+     		<div>{{cdn-img src=category.uploaded_logo.url class="category-logo"}}</div>
+    	{{/if}}
+    </a>
+
+	<a href={{category.url}}>
+  		{{#if category.read_restricted}}
+		    {{d-icon 'lock'}}
+  		{{/if}}
+
+  		<span class="category-name">{{category.name}}</span>
+	</a>
+</script>
